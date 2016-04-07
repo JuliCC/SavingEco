@@ -31,3 +31,6 @@
 	</div>
 	
 <% end %>
+<% if user_signed_in? %>
+	<%= link_to "Ir a mi perfil", current_user %>
+<% end %>
