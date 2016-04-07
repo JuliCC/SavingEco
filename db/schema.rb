@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160406223038) do
+ActiveRecord::Schema.define(version: 20160407220547) do
 
   create_table "contacts", force: :cascade do |t|
     t.string   "name"
@@ -40,12 +40,14 @@ ActiveRecord::Schema.define(version: 20160406223038) do
     t.string   "unconfirmed_email"
     t.string   "name"
     t.string   "lastname"
-    t.string   "address"
-    t.datetime "birthdate"
+    t.datetime "birthday"
     t.string   "occupation"
     t.datetime "created_at",                          null: false
     t.datetime "updated_at",                          null: false
     t.string   "code"
+    t.string   "country"
+    t.string   "username"
+    t.string   "avatar"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true

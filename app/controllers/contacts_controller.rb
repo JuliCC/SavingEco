@@ -3,9 +3,12 @@ class ContactsController < ApplicationController
   def create
   	@contact = Contact.new(contact_params)
   	if @contact.save
-  		redirect_to root_path, notice: "Message sent"
+      ContactMailer.contact(@contact).deliver_now
+      redirect_to root_path, notice: "Message sent"
+  		
   	else
   		redirect_to root_path, notice: "Message not sent"
+      
   	end
   end
 
