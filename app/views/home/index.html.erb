@@ -1,3 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="Author" content="Julieth Cardona C">
+<meta name="Keywords" content="">
+<meta name="Description" content="">
+
+<!--CSS
+================================================-->
+<link rel="stylesheet" type="text/css" href="">
+
+
+	<title>Saving Eco</title>
+</head>
+<body>
+<header>
+
+<div> <!--Barra de navegacion -->
+ 	<nav class="navbar navbar-inverse">
+  	<div class="container-fluid">
+    	<div class="navbar-header">
+      	<a class="navbar-brand" href="#">Saving Eco</a>
+    	</div>
+    <ul class="nav navbar-nav">
+      <li><a href="#about">About</a></li>
+      <li><a href="#about">Team</a></li>
+      <li><a href="#">Products</a></li>
+      <li><a href="#">Community</a></li>
+      <li class="active"><a href="#contact">Contact</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#" class="btn btn-success navbar-btn" data-toggle="modal" data-target="#ModalRegistration"><span class="glyphicon glyphicon-user"></span>Sign up</a></li>
+      <li><a href="#" class="btn btn-success navbar-btn" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
+    </ul>
+  	</div>
+	</nav>
+</div> <!--End Barra de navegacion -->
+ 
+<div class="container"> <!--Carousel-->
+  
+	
+</div> <!--End Carousel-->
+
+</header>
+
+<!-- About Section
+==================================================================-->
+	<section id="about">
+		
+	</section> <!-- About Section End -->
+
+
+<!-- Contact Section
+==================================================================-->
+
+<section id="contact">
+
 <h1>Welcome</h1>
 
 <%= form_for @contact do |f| %>
@@ -29,8 +87,14 @@
 	<div>
 		<%= f.submit 'Send' %>
 	</div>
+
+	</section>
 	
 <% end %>
 <% if user_signed_in? %>
 	<%= link_to "Ir a mi perfil", current_user %>
 <% end %>
+</body>
+</html>
+
+
