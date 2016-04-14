@@ -1,7 +1,5 @@
 function registration(form, e) {
   e.preventDefault();
-
-
  
   $.ajax({
     url: '/users',
@@ -13,8 +11,12 @@ function registration(form, e) {
       location.href = '/';
     },
     error: function (data){
-      console.log(data.responseJSON.errors)
-      form.find(".errors").html(data.responseJSON.errors.email[0]).show();
+      var errors = data.responseJSON.errors
+      form.find(".errors").html("");
+      $.each( errors, function( key, value ) {
+        form.find(".errors").append( key + ": " + value + " <br>");
+        form.find(".errors").show();
+      })
     }
   });
 }

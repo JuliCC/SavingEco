@@ -16,3 +16,4 @@
 //= require turbolinks
 //= require sessions
 //= require registration
+//= require home
