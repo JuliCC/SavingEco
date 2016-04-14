@@ -2,7 +2,7 @@ function registration(form, e) {
   e.preventDefault();
  
   $.ajax({
-    url: '/users/sign_up',
+    url: '/users',
     dataType: 'json',
     data: form.serialize(),
     method: 'POST',
