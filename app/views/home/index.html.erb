@@ -1,11 +1,11 @@
 
-<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" />
-
+<!-- <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" />
+ -->
 <body>
 <header>
 
 <div> <!--Barra de navegacion -->
- 	<nav class="navbar navbar-inverse">
+ 	<nav class="navbar navbar-inverse btn-juli">
   	<div class="container-fluid">
     	<div class="navbar-header">
       	<a class="navbar-brand" href="#">Saving Eco</a>
@@ -19,7 +19,7 @@
     </ul>
     <ul class="nav navbar-nav navbar-right">
       <% unless user_signed_in? %>
-	      <li><a href="#" class="btn btn-success navbar-btn" data-toggle="modal" data-target="#ModalRegistration"><span class="glyphicon glyphicon-user"></span>Sign up</a></li>
+	      <li><a href="#" class="btn btn-success navbar-btn btn-juli" data-toggle="modal" data-target="#ModalRegistration"><span class="glyphicon glyphicon-user"></span>Sign up</a></li>
 	      <li><a href="#" class="btn btn-success navbar-btn" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
 	  <% else %>
 	 	 <li>
@@ -33,9 +33,46 @@
 	</nav>
 </div> <!--End Barra de navegacion -->
 
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
 
-	
-</div> <!--End Carousel-->
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img class="img-carousel" src="<%= image_path('medellin.jpg')%>" alt="Chania">
+    </div>
+
+    <div class="item">
+      <img src="img_chania2.jpg" alt="Chania">
+    </div>
+
+    <div class="item">
+      <img src="img_flower.jpg" alt="Flower">
+    </div>
+
+    <div class="item">
+      <img src="img_flower2.jpg" alt="Flower">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <i class="fa fa-c fa-caret-square-o-left" aria-hidden="true"></i>
+
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+  	<i class="fa fa-c fa-4x fa-caret-square-o-right" aria-hidden="true"></i>
+
+    
+    
+  </a>
+</div>
 
 </header>
 
