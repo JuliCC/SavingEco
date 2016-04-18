@@ -7,13 +7,13 @@
 
  *= require_self
 */
+
+/* ====================================Header==================================== */
 .navbar {
   	margin-bottom: 0;
+  	background-color: black;
   }
-  .btn-juli {
-  	color:white;
-  
-  }
+
 
   .navbar-inverse .nav > li > a .btn-juli {
   color: #ffffff;}
@@ -29,4 +29,35 @@
 }
 .fa-c{
 	margin-top: 100%;
+}
+
+/*====================================Paralax==================================== */
+
+#about { 
+    background: url(images/eco.jpg) 50% 0 fixed; 
+    height: auto;  
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    padding: 100px 0;
+}
+#discover { 
+    background: url(images/home.jpg) 50% 0 fixed; 
+    height: auto;  
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    padding: 200px 0;
+}
+#contact { 
+    background: url(images/about.png) 50% 0 fixed; 
+    height: auto;
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    padding: 100px 0;
+    color: #fff;
 }
