@@ -1,5 +1,5 @@
 
-$(document).on ('ready page:load',(function(){
+$(document).on('ready page:load', function(){
    // cache the window object
    $window = $(window);
  
