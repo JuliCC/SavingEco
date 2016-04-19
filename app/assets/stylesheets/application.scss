@@ -34,7 +34,7 @@
 /*====================================Paralax==================================== */
 
 #about { 
-    background: url(asset-path("eco.jpg")) 50% 0 fixed; 
+    background: url(asset-path("eco.jpg")) 100% 0 fixed; 
     height: auto;  
     margin: 0 auto; 
     width: 100%; 
@@ -52,7 +52,8 @@
     padding: 200px 0;
 }
 #contact { 
-    background: url(images/about.png) 50% 0 fixed; 
+    background: url(asset-path("Playita1.jpg")) 50% fixed; 
+    background-position: 50% center fixed;
     height: auto;
     margin: 0 auto; 
     width: 100%; 
