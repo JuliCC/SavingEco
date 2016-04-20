@@ -47750,3 +47750,2183 @@ ActionController::RoutingError (No route matches [GET] "/home.jpg"):
 
 
 Started GET "/assets/Playita1-8cb67c2ee58d0dcdfb0cd5605da12e5097f333b9dc9e71b7c762bcbc78addfb9.jpg" for 127.0.0.1 at 2016-04-20 17:18:19 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-20 17:20:19 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (728.4ms)
+  Rendered partials/_login_form.html.erb (72.0ms)
+  Rendered partials/_login.html.erb (73.0ms)
+  Rendered partials/_registration_form.html.erb (221.2ms)
+  Rendered partials/_registration.html.erb (222.6ms)
+Completed 200 OK in 1275ms (Views: 1236.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-603f330c29af013305325569c8c75d03d688963abd8cde4fffec17b5ce417bfb.css?body=1" for 127.0.0.1 at 2016-04-20 17:20:21 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.self-1961576ff9fcb3fd0bdf893609c110c781e4c818068432bbae15f78092b9c70a.css?body=1" for 127.0.0.1 at 2016-04-20 17:20:21 -0500
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-2fe4f8a61d73606fbcb036b41f380591906a4da65a9eb5ec0a210fe6980b2ca7.css?body=1" for 127.0.0.1 at 2016-04-20 17:20:21 -0500
+
+
+Started GET "/assets/application.self-715b53cce7d6f87015544f3482fa38e087cddf818c541c42d86659c30592d1f9.css?body=1" for 127.0.0.1 at 2016-04-20 17:20:21 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-20 17:20:21 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-20 17:20:21 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 127.0.0.1 at 2016-04-20 17:20:21 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 127.0.0.1 at 2016-04-20 17:20:21 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 127.0.0.1 at 2016-04-20 17:20:21 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 127.0.0.1 at 2016-04-20 17:20:21 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 127.0.0.1 at 2016-04-20 17:20:21 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 127.0.0.1 at 2016-04-20 17:20:21 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 127.0.0.1 at 2016-04-20 17:20:21 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 127.0.0.1 at 2016-04-20 17:20:21 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 127.0.0.1 at 2016-04-20 17:20:21 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 127.0.0.1 at 2016-04-20 17:20:21 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 127.0.0.1 at 2016-04-20 17:20:21 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 127.0.0.1 at 2016-04-20 17:20:21 -0500
+
+
+Started GET "/assets/sessions.self-a9be8410697e1cf5808ba60e0ef4a47dd1360dd41a2e6cf714a40eab4d1e1ad2.js?body=1" for 127.0.0.1 at 2016-04-20 17:20:21 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-20 17:20:21 -0500
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-04-20 17:20:21 -0500
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-20 17:20:21 -0500
+
+
+Started GET "/assets/registration.self-f25c6441a51737a06882ba111dca2244b5d2139689613326603030c7d00568d2.js?body=1" for 127.0.0.1 at 2016-04-20 17:20:21 -0500
+
+
+Started GET "/assets/home.self-f81d3a42e554549f63367a4221ef10dbaa7dcceea9c949b9921b775663a9806e.js?body=1" for 127.0.0.1 at 2016-04-20 17:20:21 -0500
+
+
+Started GET "/assets/medellin-e746dcc559edf28946da5f0db18a89ffadba74f62b5b6262446964f15156ded0.jpg" for 127.0.0.1 at 2016-04-20 17:20:21 -0500
+
+
+Started GET "/assets/eco-e68cf728a8e57bb8608cb0b7e697be6dc40ac50031caec67bd83e59f582529d6.jpg" for 127.0.0.1 at 2016-04-20 17:20:21 -0500
+
+
+Started GET "/home.jpg" for 127.0.0.1 at 2016-04-20 17:20:21 -0500
+
+ActionController::RoutingError (No route matches [GET] "/home.jpg"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.5ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (9.1ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (87.1ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (2.7ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (34.0ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (65.9ms)
+
+
+Started GET "/assets/Playita1-8cb67c2ee58d0dcdfb0cd5605da12e5097f333b9dc9e71b7c762bcbc78addfb9.jpg" for 127.0.0.1 at 2016-04-20 17:20:21 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-20 17:24:57 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (12.9ms)
+  Rendered partials/_login_form.html.erb (6.9ms)
+  Rendered partials/_login.html.erb (12.6ms)
+  Rendered partials/_registration_form.html.erb (62.4ms)
+  Rendered partials/_registration.html.erb (62.9ms)
+Completed 200 OK in 190ms (Views: 189.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-603f330c29af013305325569c8c75d03d688963abd8cde4fffec17b5ce417bfb.css?body=1" for 127.0.0.1 at 2016-04-20 17:24:57 -0500
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-2fe4f8a61d73606fbcb036b41f380591906a4da65a9eb5ec0a210fe6980b2ca7.css?body=1" for 127.0.0.1 at 2016-04-20 17:24:57 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.self-1961576ff9fcb3fd0bdf893609c110c781e4c818068432bbae15f78092b9c70a.css?body=1" for 127.0.0.1 at 2016-04-20 17:24:57 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-20 17:24:57 -0500
+
+
+Started GET "/assets/application.self-715b53cce7d6f87015544f3482fa38e087cddf818c541c42d86659c30592d1f9.css?body=1" for 127.0.0.1 at 2016-04-20 17:24:57 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-20 17:24:57 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 127.0.0.1 at 2016-04-20 17:24:57 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 127.0.0.1 at 2016-04-20 17:24:57 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 127.0.0.1 at 2016-04-20 17:24:57 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 127.0.0.1 at 2016-04-20 17:24:57 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 127.0.0.1 at 2016-04-20 17:24:57 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 127.0.0.1 at 2016-04-20 17:24:57 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 127.0.0.1 at 2016-04-20 17:24:57 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 127.0.0.1 at 2016-04-20 17:24:57 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 127.0.0.1 at 2016-04-20 17:24:57 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 127.0.0.1 at 2016-04-20 17:24:57 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 127.0.0.1 at 2016-04-20 17:24:58 -0500
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-04-20 17:24:58 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 127.0.0.1 at 2016-04-20 17:24:58 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-20 17:24:58 -0500
+
+
+Started GET "/assets/sessions.self-a9be8410697e1cf5808ba60e0ef4a47dd1360dd41a2e6cf714a40eab4d1e1ad2.js?body=1" for 127.0.0.1 at 2016-04-20 17:24:58 -0500
+
+
+Started GET "/assets/registration.self-f25c6441a51737a06882ba111dca2244b5d2139689613326603030c7d00568d2.js?body=1" for 127.0.0.1 at 2016-04-20 17:24:58 -0500
+
+
+Started GET "/assets/home.self-f81d3a42e554549f63367a4221ef10dbaa7dcceea9c949b9921b775663a9806e.js?body=1" for 127.0.0.1 at 2016-04-20 17:24:58 -0500
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-20 17:24:58 -0500
+
+
+Started GET "/assets/medellin-e746dcc559edf28946da5f0db18a89ffadba74f62b5b6262446964f15156ded0.jpg" for 127.0.0.1 at 2016-04-20 17:24:58 -0500
+
+
+Started GET "/assets/eco-e68cf728a8e57bb8608cb0b7e697be6dc40ac50031caec67bd83e59f582529d6.jpg" for 127.0.0.1 at 2016-04-20 17:24:58 -0500
+
+
+Started GET "/home.jpg" for 127.0.0.1 at 2016-04-20 17:24:58 -0500
+
+ActionController::RoutingError (No route matches [GET] "/home.jpg"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.9ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (88.6ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (33.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (3.1ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (60.5ms)
+
+
+Started GET "/assets/Playita1-8cb67c2ee58d0dcdfb0cd5605da12e5097f333b9dc9e71b7c762bcbc78addfb9.jpg" for 127.0.0.1 at 2016-04-20 17:24:58 -0500
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2016-04-20 17:25:08 -0500
+Processing by SessionsController#create as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OYBmA5j+ei+ddmH7IBsTzkmG7eJfKtB9TgeVgxc0I6siMXAhr5IbF3sJgTMXFajzWjrWWlOOP1B/PjMk6GN5Eg==", "user"=>{"email"=>"juli-c.c+3@hotmail.es", "password"=>"[FILTERED]"}}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["email", "juli-c.c+3@hotmail.es"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (5.2ms)[0m  UPDATE "users" SET "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["current_sign_in_at", "2016-04-20 22:25:08.294807"], ["sign_in_count", 2], ["updated_at", "2016-04-20 22:25:08.295952"], ["id", 19]]
+  [1m[36m (11.8ms)[0m  [1mcommit transaction[0m
+Completed 201 Created in 231ms (Views: 0.5ms | ActiveRecord: 17.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-20 17:25:08 -0500
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 19]]
+  Rendered home/index.html.erb within layouts/application (13.4ms)
+  Rendered partials/_login_form.html.erb (7.1ms)
+  Rendered partials/_login.html.erb (13.1ms)
+  Rendered partials/_registration_form.html.erb (86.6ms)
+  Rendered partials/_registration.html.erb (87.2ms)
+Completed 200 OK in 214ms (Views: 212.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home.jpg" for 127.0.0.1 at 2016-04-20 17:25:08 -0500
+
+ActionController::RoutingError (No route matches [GET] "/home.jpg"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.2ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.5ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (66.7ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (4.0ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (46.1ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (85.6ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2016-04-20 17:25:13 -0500
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"U578G76eox+4KK7pEFDBTqNX1lVXCIYGMKDJB12IQgm2hmEb178YTSscb8xhDPJq9sDTX+K7Ap1mmrZfK/3juw=="}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 19]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 14ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-20 17:25:13 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (7.9ms)
+  Rendered partials/_login_form.html.erb (3.0ms)
+  Rendered partials/_login.html.erb (11.5ms)
+  Rendered partials/_registration_form.html.erb (93.1ms)
+  Rendered partials/_registration.html.erb (93.7ms)
+Completed 200 OK in 211ms (Views: 210.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home.jpg" for 127.0.0.1 at 2016-04-20 17:25:13 -0500
+
+ActionController::RoutingError (No route matches [GET] "/home.jpg"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (10.0ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (71.9ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (31.9ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (5.5ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (70.2ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2016-04-20 17:25:40 -0500
+Processing by SessionsController#create as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ampvNqboSCm5/omVF1g+nW4iQziQKuLUjMExhuDik94zKroOJBHgRLRvkmKBUG/sOU2fpA3CBbPrNSbv7jkerA==", "user"=>{"email"=>"juli-c.c+3@hotmail.es", "password"=>"[FILTERED]"}}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["email", "juli-c.c+3@hotmail.es"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["last_sign_in_at", "2016-04-20 22:25:08.294807"], ["current_sign_in_at", "2016-04-20 22:25:41.088421"], ["sign_in_count", 3], ["updated_at", "2016-04-20 22:25:41.089303"], ["id", 19]]
+  [1m[36m (10.5ms)[0m  [1mcommit transaction[0m
+Completed 201 Created in 209ms (Views: 3.3ms | ActiveRecord: 11.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-20 17:25:41 -0500
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 19]]
+  Rendered home/index.html.erb within layouts/application (10.9ms)
+  Rendered partials/_login_form.html.erb (7.3ms)
+  Rendered partials/_login.html.erb (7.8ms)
+  Rendered partials/_registration_form.html.erb (99.2ms)
+  Rendered partials/_registration.html.erb (100.7ms)
+Completed 200 OK in 244ms (Views: 243.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/home.jpg" for 127.0.0.1 at 2016-04-20 17:25:41 -0500
+
+ActionController::RoutingError (No route matches [GET] "/home.jpg"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.0ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.5ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (95.5ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (4.8ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (33.7ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (70.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-20 17:28:28 -0500
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 19]]
+  Rendered home/index.html.erb within layouts/application (17.5ms)
+  Rendered partials/_login_form.html.erb (7.0ms)
+  Rendered partials/_login.html.erb (12.1ms)
+  Rendered partials/_registration_form.html.erb (83.3ms)
+  Rendered partials/_registration.html.erb (85.5ms)
+Completed 200 OK in 235ms (Views: 234.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-603f330c29af013305325569c8c75d03d688963abd8cde4fffec17b5ce417bfb.css?body=1" for 127.0.0.1 at 2016-04-20 17:28:28 -0500
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-2fe4f8a61d73606fbcb036b41f380591906a4da65a9eb5ec0a210fe6980b2ca7.css?body=1" for 127.0.0.1 at 2016-04-20 17:28:28 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.self-1961576ff9fcb3fd0bdf893609c110c781e4c818068432bbae15f78092b9c70a.css?body=1" for 127.0.0.1 at 2016-04-20 17:28:28 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-20 17:28:28 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-20 17:28:28 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 127.0.0.1 at 2016-04-20 17:28:28 -0500
+
+
+Started GET "/assets/application.self-715b53cce7d6f87015544f3482fa38e087cddf818c541c42d86659c30592d1f9.css?body=1" for 127.0.0.1 at 2016-04-20 17:28:28 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 127.0.0.1 at 2016-04-20 17:28:28 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 127.0.0.1 at 2016-04-20 17:28:28 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 127.0.0.1 at 2016-04-20 17:28:28 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 127.0.0.1 at 2016-04-20 17:28:28 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 127.0.0.1 at 2016-04-20 17:28:29 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 127.0.0.1 at 2016-04-20 17:28:29 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 127.0.0.1 at 2016-04-20 17:28:29 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 127.0.0.1 at 2016-04-20 17:28:29 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 127.0.0.1 at 2016-04-20 17:28:29 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 127.0.0.1 at 2016-04-20 17:28:29 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 127.0.0.1 at 2016-04-20 17:28:29 -0500
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-04-20 17:28:29 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-20 17:28:29 -0500
+
+
+Started GET "/assets/sessions.self-a9be8410697e1cf5808ba60e0ef4a47dd1360dd41a2e6cf714a40eab4d1e1ad2.js?body=1" for 127.0.0.1 at 2016-04-20 17:28:29 -0500
+
+
+Started GET "/assets/registration.self-f25c6441a51737a06882ba111dca2244b5d2139689613326603030c7d00568d2.js?body=1" for 127.0.0.1 at 2016-04-20 17:28:29 -0500
+
+
+Started GET "/assets/home.self-f81d3a42e554549f63367a4221ef10dbaa7dcceea9c949b9921b775663a9806e.js?body=1" for 127.0.0.1 at 2016-04-20 17:28:29 -0500
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-20 17:28:29 -0500
+
+
+Started GET "/assets/medellin-e746dcc559edf28946da5f0db18a89ffadba74f62b5b6262446964f15156ded0.jpg" for 127.0.0.1 at 2016-04-20 17:28:29 -0500
+
+
+Started GET "/assets/eco-e68cf728a8e57bb8608cb0b7e697be6dc40ac50031caec67bd83e59f582529d6.jpg" for 127.0.0.1 at 2016-04-20 17:28:29 -0500
+
+
+Started GET "/home.jpg" for 127.0.0.1 at 2016-04-20 17:28:29 -0500
+
+ActionController::RoutingError (No route matches [GET] "/home.jpg"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (6.2ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (93.0ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (31.8ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (4.4ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (67.7ms)
+
+
+Started GET "/assets/Playita1-8cb67c2ee58d0dcdfb0cd5605da12e5097f333b9dc9e71b7c762bcbc78addfb9.jpg" for 127.0.0.1 at 2016-04-20 17:28:29 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-20 17:28:55 -0500
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 19]]
+  Rendered home/index.html.erb within layouts/application (8.8ms)
+  Rendered partials/_login_form.html.erb (6.5ms)
+  Rendered partials/_login.html.erb (9.1ms)
+  Rendered partials/_registration_form.html.erb (85.8ms)
+  Rendered partials/_registration.html.erb (86.8ms)
+Completed 200 OK in 218ms (Views: 217.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-603f330c29af013305325569c8c75d03d688963abd8cde4fffec17b5ce417bfb.css?body=1" for 127.0.0.1 at 2016-04-20 17:28:55 -0500
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-2fe4f8a61d73606fbcb036b41f380591906a4da65a9eb5ec0a210fe6980b2ca7.css?body=1" for 127.0.0.1 at 2016-04-20 17:28:55 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.self-1961576ff9fcb3fd0bdf893609c110c781e4c818068432bbae15f78092b9c70a.css?body=1" for 127.0.0.1 at 2016-04-20 17:28:55 -0500
+
+
+Started GET "/assets/application.self-715b53cce7d6f87015544f3482fa38e087cddf818c541c42d86659c30592d1f9.css?body=1" for 127.0.0.1 at 2016-04-20 17:28:55 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-20 17:28:55 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 127.0.0.1 at 2016-04-20 17:28:55 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-20 17:28:55 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 127.0.0.1 at 2016-04-20 17:28:55 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 127.0.0.1 at 2016-04-20 17:28:55 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 127.0.0.1 at 2016-04-20 17:28:55 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 127.0.0.1 at 2016-04-20 17:28:55 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 127.0.0.1 at 2016-04-20 17:28:55 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 127.0.0.1 at 2016-04-20 17:28:55 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 127.0.0.1 at 2016-04-20 17:28:55 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 127.0.0.1 at 2016-04-20 17:28:55 -0500
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-04-20 17:28:55 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 127.0.0.1 at 2016-04-20 17:28:55 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 127.0.0.1 at 2016-04-20 17:28:55 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 127.0.0.1 at 2016-04-20 17:28:55 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-20 17:28:55 -0500
+
+
+Started GET "/assets/sessions.self-a9be8410697e1cf5808ba60e0ef4a47dd1360dd41a2e6cf714a40eab4d1e1ad2.js?body=1" for 127.0.0.1 at 2016-04-20 17:28:55 -0500
+
+
+Started GET "/assets/home.self-f81d3a42e554549f63367a4221ef10dbaa7dcceea9c949b9921b775663a9806e.js?body=1" for 127.0.0.1 at 2016-04-20 17:28:55 -0500
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-20 17:28:55 -0500
+
+
+Started GET "/assets/registration.self-f25c6441a51737a06882ba111dca2244b5d2139689613326603030c7d00568d2.js?body=1" for 127.0.0.1 at 2016-04-20 17:28:55 -0500
+
+
+Started GET "/assets/medellin-e746dcc559edf28946da5f0db18a89ffadba74f62b5b6262446964f15156ded0.jpg" for 127.0.0.1 at 2016-04-20 17:28:56 -0500
+
+
+Started GET "/assets/eco-e68cf728a8e57bb8608cb0b7e697be6dc40ac50031caec67bd83e59f582529d6.jpg" for 127.0.0.1 at 2016-04-20 17:28:56 -0500
+
+
+Started GET "/home.jpg" for 127.0.0.1 at 2016-04-20 17:28:56 -0500
+
+ActionController::RoutingError (No route matches [GET] "/home.jpg"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.6ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (62.9ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (33.6ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (64.6ms)
+
+
+Started GET "/assets/Playita1-8cb67c2ee58d0dcdfb0cd5605da12e5097f333b9dc9e71b7c762bcbc78addfb9.jpg" for 127.0.0.1 at 2016-04-20 17:28:56 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-20 17:29:28 -0500
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 19]]
+  Rendered home/index.html.erb within layouts/application (8.8ms)
+  Rendered partials/_login_form.html.erb (5.4ms)
+  Rendered partials/_login.html.erb (12.6ms)
+  Rendered partials/_registration_form.html.erb (78.3ms)
+  Rendered partials/_registration.html.erb (83.4ms)
+Completed 200 OK in 201ms (Views: 200.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-603f330c29af013305325569c8c75d03d688963abd8cde4fffec17b5ce417bfb.css?body=1" for 127.0.0.1 at 2016-04-20 17:29:29 -0500
+
+
+Started GET "/assets/application.self-715b53cce7d6f87015544f3482fa38e087cddf818c541c42d86659c30592d1f9.css?body=1" for 127.0.0.1 at 2016-04-20 17:29:29 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.self-1961576ff9fcb3fd0bdf893609c110c781e4c818068432bbae15f78092b9c70a.css?body=1" for 127.0.0.1 at 2016-04-20 17:29:29 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-20 17:29:29 -0500
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-2fe4f8a61d73606fbcb036b41f380591906a4da65a9eb5ec0a210fe6980b2ca7.css?body=1" for 127.0.0.1 at 2016-04-20 17:29:29 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 127.0.0.1 at 2016-04-20 17:29:29 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-20 17:29:29 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 127.0.0.1 at 2016-04-20 17:29:29 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 127.0.0.1 at 2016-04-20 17:29:29 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 127.0.0.1 at 2016-04-20 17:29:29 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 127.0.0.1 at 2016-04-20 17:29:29 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 127.0.0.1 at 2016-04-20 17:29:29 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 127.0.0.1 at 2016-04-20 17:29:29 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 127.0.0.1 at 2016-04-20 17:29:29 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 127.0.0.1 at 2016-04-20 17:29:29 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 127.0.0.1 at 2016-04-20 17:29:29 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 127.0.0.1 at 2016-04-20 17:29:29 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 127.0.0.1 at 2016-04-20 17:29:29 -0500
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-04-20 17:29:29 -0500
+
+
+Started GET "/assets/sessions.self-a9be8410697e1cf5808ba60e0ef4a47dd1360dd41a2e6cf714a40eab4d1e1ad2.js?body=1" for 127.0.0.1 at 2016-04-20 17:29:29 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-20 17:29:29 -0500
+
+
+Started GET "/assets/registration.self-f25c6441a51737a06882ba111dca2244b5d2139689613326603030c7d00568d2.js?body=1" for 127.0.0.1 at 2016-04-20 17:29:29 -0500
+
+
+Started GET "/assets/home.self-f81d3a42e554549f63367a4221ef10dbaa7dcceea9c949b9921b775663a9806e.js?body=1" for 127.0.0.1 at 2016-04-20 17:29:29 -0500
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-20 17:29:29 -0500
+
+
+Started GET "/assets/medellin-e746dcc559edf28946da5f0db18a89ffadba74f62b5b6262446964f15156ded0.jpg" for 127.0.0.1 at 2016-04-20 17:29:29 -0500
+
+
+Started GET "/assets/eco-e68cf728a8e57bb8608cb0b7e697be6dc40ac50031caec67bd83e59f582529d6.jpg" for 127.0.0.1 at 2016-04-20 17:29:29 -0500
+
+
+Started GET "/home.jpg" for 127.0.0.1 at 2016-04-20 17:29:29 -0500
+
+ActionController::RoutingError (No route matches [GET] "/home.jpg"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (6.5ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (65.1ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (30.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (63.4ms)
+
+
+Started GET "/assets/Playita1-8cb67c2ee58d0dcdfb0cd5605da12e5097f333b9dc9e71b7c762bcbc78addfb9.jpg" for 127.0.0.1 at 2016-04-20 17:29:29 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-20 17:30:24 -0500
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 19]]
+  Rendered home/index.html.erb within layouts/application (12.6ms)
+  Rendered partials/_login_form.html.erb (7.9ms)
+  Rendered partials/_login.html.erb (14.8ms)
+  Rendered partials/_registration_form.html.erb (79.0ms)
+  Rendered partials/_registration.html.erb (80.3ms)
+Completed 200 OK in 214ms (Views: 213.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-603f330c29af013305325569c8c75d03d688963abd8cde4fffec17b5ce417bfb.css?body=1" for 127.0.0.1 at 2016-04-20 17:30:25 -0500
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-2fe4f8a61d73606fbcb036b41f380591906a4da65a9eb5ec0a210fe6980b2ca7.css?body=1" for 127.0.0.1 at 2016-04-20 17:30:25 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.self-1961576ff9fcb3fd0bdf893609c110c781e4c818068432bbae15f78092b9c70a.css?body=1" for 127.0.0.1 at 2016-04-20 17:30:25 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-20 17:30:25 -0500
+
+
+Started GET "/assets/application.self-715b53cce7d6f87015544f3482fa38e087cddf818c541c42d86659c30592d1f9.css?body=1" for 127.0.0.1 at 2016-04-20 17:30:25 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 127.0.0.1 at 2016-04-20 17:30:25 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-20 17:30:25 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 127.0.0.1 at 2016-04-20 17:30:25 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 127.0.0.1 at 2016-04-20 17:30:25 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 127.0.0.1 at 2016-04-20 17:30:25 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 127.0.0.1 at 2016-04-20 17:30:25 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 127.0.0.1 at 2016-04-20 17:30:25 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 127.0.0.1 at 2016-04-20 17:30:25 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 127.0.0.1 at 2016-04-20 17:30:25 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 127.0.0.1 at 2016-04-20 17:30:25 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 127.0.0.1 at 2016-04-20 17:30:25 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 127.0.0.1 at 2016-04-20 17:30:25 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 127.0.0.1 at 2016-04-20 17:30:25 -0500
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-04-20 17:30:25 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-20 17:30:25 -0500
+
+
+Started GET "/assets/sessions.self-a9be8410697e1cf5808ba60e0ef4a47dd1360dd41a2e6cf714a40eab4d1e1ad2.js?body=1" for 127.0.0.1 at 2016-04-20 17:30:25 -0500
+
+
+Started GET "/assets/registration.self-f25c6441a51737a06882ba111dca2244b5d2139689613326603030c7d00568d2.js?body=1" for 127.0.0.1 at 2016-04-20 17:30:25 -0500
+
+
+Started GET "/assets/home.self-f81d3a42e554549f63367a4221ef10dbaa7dcceea9c949b9921b775663a9806e.js?body=1" for 127.0.0.1 at 2016-04-20 17:30:25 -0500
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-20 17:30:25 -0500
+
+
+Started GET "/assets/medellin-e746dcc559edf28946da5f0db18a89ffadba74f62b5b6262446964f15156ded0.jpg" for 127.0.0.1 at 2016-04-20 17:30:25 -0500
+
+
+Started GET "/assets/eco-e68cf728a8e57bb8608cb0b7e697be6dc40ac50031caec67bd83e59f582529d6.jpg" for 127.0.0.1 at 2016-04-20 17:30:25 -0500
+
+
+Started GET "/home.jpg" for 127.0.0.1 at 2016-04-20 17:30:25 -0500
+
+ActionController::RoutingError (No route matches [GET] "/home.jpg"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.6ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.0ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.1ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (78.5ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (31.1ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (64.0ms)
+
+
+Started GET "/assets/Playita1-8cb67c2ee58d0dcdfb0cd5605da12e5097f333b9dc9e71b7c762bcbc78addfb9.jpg" for 127.0.0.1 at 2016-04-20 17:30:25 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-20 17:30:47 -0500
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 19]]
+  Rendered home/index.html.erb within layouts/application (7.7ms)
+  Rendered partials/_login_form.html.erb (7.2ms)
+  Rendered partials/_login.html.erb (14.3ms)
+  Rendered partials/_registration_form.html.erb (79.0ms)
+  Rendered partials/_registration.html.erb (80.0ms)
+Completed 200 OK in 226ms (Views: 225.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-603f330c29af013305325569c8c75d03d688963abd8cde4fffec17b5ce417bfb.css?body=1" for 127.0.0.1 at 2016-04-20 17:30:48 -0500
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-2fe4f8a61d73606fbcb036b41f380591906a4da65a9eb5ec0a210fe6980b2ca7.css?body=1" for 127.0.0.1 at 2016-04-20 17:30:48 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.self-1961576ff9fcb3fd0bdf893609c110c781e4c818068432bbae15f78092b9c70a.css?body=1" for 127.0.0.1 at 2016-04-20 17:30:48 -0500
+
+
+Started GET "/assets/application.self-715b53cce7d6f87015544f3482fa38e087cddf818c541c42d86659c30592d1f9.css?body=1" for 127.0.0.1 at 2016-04-20 17:30:48 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-20 17:30:48 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 127.0.0.1 at 2016-04-20 17:30:48 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-20 17:30:48 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 127.0.0.1 at 2016-04-20 17:30:48 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 127.0.0.1 at 2016-04-20 17:30:48 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 127.0.0.1 at 2016-04-20 17:30:48 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 127.0.0.1 at 2016-04-20 17:30:48 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 127.0.0.1 at 2016-04-20 17:30:48 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 127.0.0.1 at 2016-04-20 17:30:48 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 127.0.0.1 at 2016-04-20 17:30:48 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 127.0.0.1 at 2016-04-20 17:30:48 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 127.0.0.1 at 2016-04-20 17:30:48 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 127.0.0.1 at 2016-04-20 17:30:48 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 127.0.0.1 at 2016-04-20 17:30:48 -0500
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-04-20 17:30:48 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-20 17:30:48 -0500
+
+
+Started GET "/assets/sessions.self-a9be8410697e1cf5808ba60e0ef4a47dd1360dd41a2e6cf714a40eab4d1e1ad2.js?body=1" for 127.0.0.1 at 2016-04-20 17:30:48 -0500
+
+
+Started GET "/assets/registration.self-f25c6441a51737a06882ba111dca2244b5d2139689613326603030c7d00568d2.js?body=1" for 127.0.0.1 at 2016-04-20 17:30:48 -0500
+
+
+Started GET "/assets/home.self-f81d3a42e554549f63367a4221ef10dbaa7dcceea9c949b9921b775663a9806e.js?body=1" for 127.0.0.1 at 2016-04-20 17:30:48 -0500
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-20 17:30:48 -0500
+
+
+Started GET "/assets/medellin-e746dcc559edf28946da5f0db18a89ffadba74f62b5b6262446964f15156ded0.jpg" for 127.0.0.1 at 2016-04-20 17:30:48 -0500
+
+
+Started GET "/assets/eco-e68cf728a8e57bb8608cb0b7e697be6dc40ac50031caec67bd83e59f582529d6.jpg" for 127.0.0.1 at 2016-04-20 17:30:48 -0500
+
+
+Started GET "/home.jpg" for 127.0.0.1 at 2016-04-20 17:30:48 -0500
+
+ActionController::RoutingError (No route matches [GET] "/home.jpg"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.9ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (73.4ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (47.0ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (4.4ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (95.3ms)
+
+
+Started GET "/assets/Playita1-8cb67c2ee58d0dcdfb0cd5605da12e5097f333b9dc9e71b7c762bcbc78addfb9.jpg" for 127.0.0.1 at 2016-04-20 17:30:48 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-20 17:31:39 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/julicc/Documentos/SavingEco/app/views/home/index.html.erb:34: syntax error, unexpected ')', expecting '='
+...user.name, current_user.email );@output_buffer.safe_append='
+...                               ^
+/home/julicc/Documentos/SavingEco/app/views/home/index.html.erb:41: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;     end 
+                 ^
+/home/julicc/Documentos/SavingEco/app/views/home/index.html.erb:188: syntax error, unexpected keyword_ensure, expecting ')'
+/home/julicc/Documentos/SavingEco/app/views/home/index.html.erb:190: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/home/index.html.erb:34: syntax error, unexpected ')', expecting '='
+  app/views/home/index.html.erb:41: syntax error, unexpected keyword_end, expecting ')'
+  app/views/home/index.html.erb:188: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/home/index.html.erb:190: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (18.1ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (11.5ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.9ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (71.1ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (2.1ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (31.5ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.9ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (61.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-20 17:32:13 -0500
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 19]]
+  Rendered home/index.html.erb within layouts/application (7.7ms)
+  Rendered partials/_login_form.html.erb (2.5ms)
+  Rendered partials/_login.html.erb (9.7ms)
+  Rendered partials/_registration_form.html.erb (68.3ms)
+  Rendered partials/_registration.html.erb (71.0ms)
+Completed 200 OK in 176ms (Views: 175.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-603f330c29af013305325569c8c75d03d688963abd8cde4fffec17b5ce417bfb.css?body=1" for 127.0.0.1 at 2016-04-20 17:32:13 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.self-1961576ff9fcb3fd0bdf893609c110c781e4c818068432bbae15f78092b9c70a.css?body=1" for 127.0.0.1 at 2016-04-20 17:32:13 -0500
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-2fe4f8a61d73606fbcb036b41f380591906a4da65a9eb5ec0a210fe6980b2ca7.css?body=1" for 127.0.0.1 at 2016-04-20 17:32:13 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-20 17:32:13 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 127.0.0.1 at 2016-04-20 17:32:13 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 127.0.0.1 at 2016-04-20 17:32:13 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-20 17:32:13 -0500
+
+
+Started GET "/assets/application.self-715b53cce7d6f87015544f3482fa38e087cddf818c541c42d86659c30592d1f9.css?body=1" for 127.0.0.1 at 2016-04-20 17:32:13 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 127.0.0.1 at 2016-04-20 17:32:13 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 127.0.0.1 at 2016-04-20 17:32:13 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 127.0.0.1 at 2016-04-20 17:32:13 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 127.0.0.1 at 2016-04-20 17:32:13 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 127.0.0.1 at 2016-04-20 17:32:13 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 127.0.0.1 at 2016-04-20 17:32:13 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 127.0.0.1 at 2016-04-20 17:32:13 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 127.0.0.1 at 2016-04-20 17:32:13 -0500
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-04-20 17:32:13 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 127.0.0.1 at 2016-04-20 17:32:13 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 127.0.0.1 at 2016-04-20 17:32:13 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-20 17:32:13 -0500
+
+
+Started GET "/assets/registration.self-f25c6441a51737a06882ba111dca2244b5d2139689613326603030c7d00568d2.js?body=1" for 127.0.0.1 at 2016-04-20 17:32:13 -0500
+
+
+Started GET "/assets/sessions.self-a9be8410697e1cf5808ba60e0ef4a47dd1360dd41a2e6cf714a40eab4d1e1ad2.js?body=1" for 127.0.0.1 at 2016-04-20 17:32:13 -0500
+
+
+Started GET "/assets/home.self-f81d3a42e554549f63367a4221ef10dbaa7dcceea9c949b9921b775663a9806e.js?body=1" for 127.0.0.1 at 2016-04-20 17:32:13 -0500
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-20 17:32:13 -0500
+
+
+Started GET "/assets/medellin-e746dcc559edf28946da5f0db18a89ffadba74f62b5b6262446964f15156ded0.jpg" for 127.0.0.1 at 2016-04-20 17:32:14 -0500
+
+
+Started GET "/assets/eco-e68cf728a8e57bb8608cb0b7e697be6dc40ac50031caec67bd83e59f582529d6.jpg" for 127.0.0.1 at 2016-04-20 17:32:14 -0500
+
+
+Started GET "/home.jpg" for 127.0.0.1 at 2016-04-20 17:32:14 -0500
+
+ActionController::RoutingError (No route matches [GET] "/home.jpg"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (9.6ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.7ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (57.1ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (32.5ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (4.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (4.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (64.9ms)
+
+
+Started GET "/assets/Playita1-8cb67c2ee58d0dcdfb0cd5605da12e5097f333b9dc9e71b7c762bcbc78addfb9.jpg" for 127.0.0.1 at 2016-04-20 17:32:14 -0500
+
+
+Started GET "/assets/fontawesome-webfont-a7c7e4930090e038a280fd61d88f0dc03dad4aeaedbd8c9be3dd9aa4c3b6f8d1.woff" for 127.0.0.1 at 2016-04-20 17:32:14 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-20 17:32:53 -0500
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 19]]
+  Rendered home/index.html.erb within layouts/application (10.6ms)
+  Rendered partials/_login_form.html.erb (7.3ms)
+  Rendered partials/_login.html.erb (12.5ms)
+  Rendered partials/_registration_form.html.erb (92.2ms)
+  Rendered partials/_registration.html.erb (92.8ms)
+Completed 200 OK in 206ms (Views: 205.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-603f330c29af013305325569c8c75d03d688963abd8cde4fffec17b5ce417bfb.css?body=1" for 127.0.0.1 at 2016-04-20 17:32:53 -0500
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-2fe4f8a61d73606fbcb036b41f380591906a4da65a9eb5ec0a210fe6980b2ca7.css?body=1" for 127.0.0.1 at 2016-04-20 17:32:53 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.self-1961576ff9fcb3fd0bdf893609c110c781e4c818068432bbae15f78092b9c70a.css?body=1" for 127.0.0.1 at 2016-04-20 17:32:53 -0500
+
+
+Started GET "/assets/application.self-715b53cce7d6f87015544f3482fa38e087cddf818c541c42d86659c30592d1f9.css?body=1" for 127.0.0.1 at 2016-04-20 17:32:53 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-20 17:32:53 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 127.0.0.1 at 2016-04-20 17:32:53 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 127.0.0.1 at 2016-04-20 17:32:53 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-20 17:32:53 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 127.0.0.1 at 2016-04-20 17:32:53 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 127.0.0.1 at 2016-04-20 17:32:53 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 127.0.0.1 at 2016-04-20 17:32:53 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 127.0.0.1 at 2016-04-20 17:32:53 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 127.0.0.1 at 2016-04-20 17:32:53 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 127.0.0.1 at 2016-04-20 17:32:53 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 127.0.0.1 at 2016-04-20 17:32:53 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 127.0.0.1 at 2016-04-20 17:32:53 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 127.0.0.1 at 2016-04-20 17:32:53 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 127.0.0.1 at 2016-04-20 17:32:53 -0500
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-04-20 17:32:53 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-20 17:32:53 -0500
+
+
+Started GET "/assets/registration.self-f25c6441a51737a06882ba111dca2244b5d2139689613326603030c7d00568d2.js?body=1" for 127.0.0.1 at 2016-04-20 17:32:53 -0500
+
+
+Started GET "/assets/sessions.self-a9be8410697e1cf5808ba60e0ef4a47dd1360dd41a2e6cf714a40eab4d1e1ad2.js?body=1" for 127.0.0.1 at 2016-04-20 17:32:53 -0500
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-20 17:32:53 -0500
+
+
+Started GET "/assets/home.self-f81d3a42e554549f63367a4221ef10dbaa7dcceea9c949b9921b775663a9806e.js?body=1" for 127.0.0.1 at 2016-04-20 17:32:53 -0500
+
+
+Started GET "/assets/medellin-e746dcc559edf28946da5f0db18a89ffadba74f62b5b6262446964f15156ded0.jpg" for 127.0.0.1 at 2016-04-20 17:32:54 -0500
+
+
+Started GET "/assets/eco-e68cf728a8e57bb8608cb0b7e697be6dc40ac50031caec67bd83e59f582529d6.jpg" for 127.0.0.1 at 2016-04-20 17:32:54 -0500
+
+
+Started GET "/home.jpg" for 127.0.0.1 at 2016-04-20 17:32:54 -0500
+
+ActionController::RoutingError (No route matches [GET] "/home.jpg"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (6.5ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (10.7ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (84.7ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (33.0ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (66.2ms)
+
+
+Started GET "/assets/Playita1-8cb67c2ee58d0dcdfb0cd5605da12e5097f333b9dc9e71b7c762bcbc78addfb9.jpg" for 127.0.0.1 at 2016-04-20 17:32:54 -0500
+
+
+Started GET "/users/19" for 127.0.0.1 at 2016-04-20 17:33:01 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 19]]
+  Rendered users/show.html.erb within layouts/application (0.3ms)
+  Rendered partials/_login_form.html.erb (3.4ms)
+  Rendered partials/_login.html.erb (7.3ms)
+  Rendered partials/_registration_form.html.erb (66.7ms)
+  Rendered partials/_registration.html.erb (68.8ms)
+Completed 200 OK in 180ms (Views: 173.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-20 17:34:00 -0500
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 19]]
+  Rendered home/index.html.erb within layouts/application (10.0ms)
+  Rendered partials/_login_form.html.erb (9.2ms)
+  Rendered partials/_login.html.erb (11.2ms)
+  Rendered partials/_registration_form.html.erb (90.6ms)
+  Rendered partials/_registration.html.erb (91.2ms)
+Completed 200 OK in 218ms (Views: 216.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-603f330c29af013305325569c8c75d03d688963abd8cde4fffec17b5ce417bfb.css?body=1" for 127.0.0.1 at 2016-04-20 17:34:01 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.self-1961576ff9fcb3fd0bdf893609c110c781e4c818068432bbae15f78092b9c70a.css?body=1" for 127.0.0.1 at 2016-04-20 17:34:01 -0500
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-2fe4f8a61d73606fbcb036b41f380591906a4da65a9eb5ec0a210fe6980b2ca7.css?body=1" for 127.0.0.1 at 2016-04-20 17:34:01 -0500
+
+
+Started GET "/assets/application.self-715b53cce7d6f87015544f3482fa38e087cddf818c541c42d86659c30592d1f9.css?body=1" for 127.0.0.1 at 2016-04-20 17:34:01 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-20 17:34:01 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 127.0.0.1 at 2016-04-20 17:34:01 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 127.0.0.1 at 2016-04-20 17:34:01 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-20 17:34:01 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 127.0.0.1 at 2016-04-20 17:34:01 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 127.0.0.1 at 2016-04-20 17:34:01 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 127.0.0.1 at 2016-04-20 17:34:01 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 127.0.0.1 at 2016-04-20 17:34:01 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 127.0.0.1 at 2016-04-20 17:34:01 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 127.0.0.1 at 2016-04-20 17:34:01 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 127.0.0.1 at 2016-04-20 17:34:01 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 127.0.0.1 at 2016-04-20 17:34:01 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 127.0.0.1 at 2016-04-20 17:34:01 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 127.0.0.1 at 2016-04-20 17:34:01 -0500
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-04-20 17:34:01 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-20 17:34:01 -0500
+
+
+Started GET "/assets/sessions.self-a9be8410697e1cf5808ba60e0ef4a47dd1360dd41a2e6cf714a40eab4d1e1ad2.js?body=1" for 127.0.0.1 at 2016-04-20 17:34:01 -0500
+
+
+Started GET "/assets/registration.self-f25c6441a51737a06882ba111dca2244b5d2139689613326603030c7d00568d2.js?body=1" for 127.0.0.1 at 2016-04-20 17:34:01 -0500
+
+
+Started GET "/assets/home.self-f81d3a42e554549f63367a4221ef10dbaa7dcceea9c949b9921b775663a9806e.js?body=1" for 127.0.0.1 at 2016-04-20 17:34:01 -0500
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-20 17:34:01 -0500
+
+
+Started GET "/assets/medellin-e746dcc559edf28946da5f0db18a89ffadba74f62b5b6262446964f15156ded0.jpg" for 127.0.0.1 at 2016-04-20 17:34:01 -0500
+
+
+Started GET "/assets/eco-e68cf728a8e57bb8608cb0b7e697be6dc40ac50031caec67bd83e59f582529d6.jpg" for 127.0.0.1 at 2016-04-20 17:34:01 -0500
+
+
+Started GET "/home.jpg" for 127.0.0.1 at 2016-04-20 17:34:01 -0500
+
+ActionController::RoutingError (No route matches [GET] "/home.jpg"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (9.1ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.2ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.1ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (14.2ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (73.5ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (9.4ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (53.6ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (6.2ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (96.4ms)
+
+
+Started GET "/assets/Playita1-8cb67c2ee58d0dcdfb0cd5605da12e5097f333b9dc9e71b7c762bcbc78addfb9.jpg" for 127.0.0.1 at 2016-04-20 17:34:01 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-20 17:38:30 -0500
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 19]]
+  Rendered home/index.html.erb within layouts/application (15.6ms)
+  Rendered partials/_login_form.html.erb (8.2ms)
+  Rendered partials/_login.html.erb (15.0ms)
+  Rendered partials/_registration_form.html.erb (77.2ms)
+  Rendered partials/_registration.html.erb (78.6ms)
+Completed 200 OK in 214ms (Views: 212.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-603f330c29af013305325569c8c75d03d688963abd8cde4fffec17b5ce417bfb.css?body=1" for 127.0.0.1 at 2016-04-20 17:38:30 -0500
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-2fe4f8a61d73606fbcb036b41f380591906a4da65a9eb5ec0a210fe6980b2ca7.css?body=1" for 127.0.0.1 at 2016-04-20 17:38:30 -0500
+
+
+Started GET "/assets/application.self-715b53cce7d6f87015544f3482fa38e087cddf818c541c42d86659c30592d1f9.css?body=1" for 127.0.0.1 at 2016-04-20 17:38:30 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.self-1961576ff9fcb3fd0bdf893609c110c781e4c818068432bbae15f78092b9c70a.css?body=1" for 127.0.0.1 at 2016-04-20 17:38:30 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 127.0.0.1 at 2016-04-20 17:38:30 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-20 17:38:30 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-20 17:38:30 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 127.0.0.1 at 2016-04-20 17:38:30 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 127.0.0.1 at 2016-04-20 17:38:30 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 127.0.0.1 at 2016-04-20 17:38:30 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 127.0.0.1 at 2016-04-20 17:38:30 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 127.0.0.1 at 2016-04-20 17:38:30 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 127.0.0.1 at 2016-04-20 17:38:30 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 127.0.0.1 at 2016-04-20 17:38:30 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 127.0.0.1 at 2016-04-20 17:38:30 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 127.0.0.1 at 2016-04-20 17:38:30 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 127.0.0.1 at 2016-04-20 17:38:30 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 127.0.0.1 at 2016-04-20 17:38:30 -0500
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-04-20 17:38:30 -0500
+
+
+Started GET "/assets/sessions.self-a9be8410697e1cf5808ba60e0ef4a47dd1360dd41a2e6cf714a40eab4d1e1ad2.js?body=1" for 127.0.0.1 at 2016-04-20 17:38:30 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-20 17:38:30 -0500
+
+
+Started GET "/assets/registration.self-f25c6441a51737a06882ba111dca2244b5d2139689613326603030c7d00568d2.js?body=1" for 127.0.0.1 at 2016-04-20 17:38:30 -0500
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-20 17:38:30 -0500
+
+
+Started GET "/assets/home.self-f81d3a42e554549f63367a4221ef10dbaa7dcceea9c949b9921b775663a9806e.js?body=1" for 127.0.0.1 at 2016-04-20 17:38:30 -0500
+
+
+Started GET "/assets/medellin-e746dcc559edf28946da5f0db18a89ffadba74f62b5b6262446964f15156ded0.jpg" for 127.0.0.1 at 2016-04-20 17:38:30 -0500
+
+
+Started GET "/assets/eco-e68cf728a8e57bb8608cb0b7e697be6dc40ac50031caec67bd83e59f582529d6.jpg" for 127.0.0.1 at 2016-04-20 17:38:30 -0500
+
+
+Started GET "/home.jpg" for 127.0.0.1 at 2016-04-20 17:38:30 -0500
+
+ActionController::RoutingError (No route matches [GET] "/home.jpg"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (57.9ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (2.5ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (47.4ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (84.3ms)
+
+
+Started GET "/assets/Playita1-8cb67c2ee58d0dcdfb0cd5605da12e5097f333b9dc9e71b7c762bcbc78addfb9.jpg" for 127.0.0.1 at 2016-04-20 17:38:31 -0500
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2016-04-20 17:38:35 -0500
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"DVOVC8SGQKlO4s1opvyVcC0Ib4GdlsDWkMRgAa7qfs0aC0XzlyJJgNihSy6PG9iL8X8E2S7syI+uLFrnHTQmfQ=="}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 19]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-20 17:38:35 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (5.7ms)
+  Rendered partials/_login_form.html.erb (2.6ms)
+  Rendered partials/_login.html.erb (9.5ms)
+  Rendered partials/_registration_form.html.erb (66.0ms)
+  Rendered partials/_registration.html.erb (70.1ms)
+Completed 200 OK in 201ms (Views: 200.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home.jpg" for 127.0.0.1 at 2016-04-20 17:38:35 -0500
+
+ActionController::RoutingError (No route matches [GET] "/home.jpg"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (10.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.2ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (64.6ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (5.1ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (53.6ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (97.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-20 17:44:14 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (8.4ms)
+  Rendered partials/_login_form.html.erb (12.2ms)
+  Rendered partials/_login.html.erb (12.7ms)
+  Rendered partials/_registration_form.html.erb (58.6ms)
+  Rendered partials/_registration.html.erb (61.1ms)
+Completed 200 OK in 310ms (Views: 309.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-603f330c29af013305325569c8c75d03d688963abd8cde4fffec17b5ce417bfb.css?body=1" for 127.0.0.1 at 2016-04-20 17:44:14 -0500
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-2fe4f8a61d73606fbcb036b41f380591906a4da65a9eb5ec0a210fe6980b2ca7.css?body=1" for 127.0.0.1 at 2016-04-20 17:44:14 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.self-1961576ff9fcb3fd0bdf893609c110c781e4c818068432bbae15f78092b9c70a.css?body=1" for 127.0.0.1 at 2016-04-20 17:44:14 -0500
+
+
+Started GET "/assets/application.self-79fb35e737d2144223af0a2f911ed98f3b9294b67866284ba02e2af8c98a9035.css?body=1" for 127.0.0.1 at 2016-04-20 17:44:14 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-04-20 17:44:14 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-20 17:44:14 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 127.0.0.1 at 2016-04-20 17:44:14 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 127.0.0.1 at 2016-04-20 17:44:14 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 127.0.0.1 at 2016-04-20 17:44:14 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 127.0.0.1 at 2016-04-20 17:44:14 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 127.0.0.1 at 2016-04-20 17:44:14 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 127.0.0.1 at 2016-04-20 17:44:14 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 127.0.0.1 at 2016-04-20 17:44:14 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 127.0.0.1 at 2016-04-20 17:44:14 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 127.0.0.1 at 2016-04-20 17:44:14 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 127.0.0.1 at 2016-04-20 17:44:14 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 127.0.0.1 at 2016-04-20 17:44:14 -0500
+
+
+Started GET "/assets/sessions.self-a9be8410697e1cf5808ba60e0ef4a47dd1360dd41a2e6cf714a40eab4d1e1ad2.js?body=1" for 127.0.0.1 at 2016-04-20 17:44:14 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-20 17:44:14 -0500
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-04-20 17:44:14 -0500
+
+
+Started GET "/assets/registration.self-f25c6441a51737a06882ba111dca2244b5d2139689613326603030c7d00568d2.js?body=1" for 127.0.0.1 at 2016-04-20 17:44:14 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 127.0.0.1 at 2016-04-20 17:44:14 -0500
+
+
+Started GET "/assets/home.self-f81d3a42e554549f63367a4221ef10dbaa7dcceea9c949b9921b775663a9806e.js?body=1" for 127.0.0.1 at 2016-04-20 17:44:14 -0500
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2016-04-20 17:44:14 -0500
+
+
+Started GET "/assets/medellin-e746dcc559edf28946da5f0db18a89ffadba74f62b5b6262446964f15156ded0.jpg" for 127.0.0.1 at 2016-04-20 17:44:15 -0500
+
+
+Started GET "/assets/eco-e68cf728a8e57bb8608cb0b7e697be6dc40ac50031caec67bd83e59f582529d6.jpg" for 127.0.0.1 at 2016-04-20 17:44:15 -0500
+
+
+Started GET "/home.jpg" for 127.0.0.1 at 2016-04-20 17:44:15 -0500
+
+ActionController::RoutingError (No route matches [GET] "/home.jpg"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (13.1ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (7.8ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.6ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (85.0ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (30.8ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (65.0ms)
+
+
+Started GET "/assets/Playita1-8cb67c2ee58d0dcdfb0cd5605da12e5097f333b9dc9e71b7c762bcbc78addfb9.jpg" for 127.0.0.1 at 2016-04-20 17:44:15 -0500
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2016-04-20 17:44:37 -0500
+Processing by SessionsController#create as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pXYqFugLxMVR928tBxEx9vRonytWFfeQNu5rNfNIGWT1+G7n+yV4yNjtYq6ygDTy98M0pHekSo5rw2AnkQFBAA==", "user"=>{"email"=>"juli-c.c+3@hotmail.es", "password"=>"[FILTERED]"}}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["email", "juli-c.c+3@hotmail.es"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["last_sign_in_at", "2016-04-20 22:25:41.088421"], ["current_sign_in_at", "2016-04-20 22:44:37.890773"], ["sign_in_count", 4], ["updated_at", "2016-04-20 22:44:37.894503"], ["id", 19]]
+  [1m[36m (11.2ms)[0m  [1mcommit transaction[0m
+Completed 201 Created in 221ms (Views: 0.5ms | ActiveRecord: 11.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-20 17:44:38 -0500
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 19]]
+  Rendered home/index.html.erb within layouts/application (8.0ms)
+  Rendered partials/_login_form.html.erb (7.2ms)
+  Rendered partials/_login.html.erb (12.4ms)
+  Rendered partials/_registration_form.html.erb (73.7ms)
+  Rendered partials/_registration.html.erb (74.3ms)
+Completed 200 OK in 191ms (Views: 190.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/home.jpg" for 127.0.0.1 at 2016-04-20 17:44:38 -0500
+
+ActionController::RoutingError (No route matches [GET] "/home.jpg"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.2ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (62.9ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (54.7ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (94.0ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2016-04-20 17:44:53 -0500
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"MQvMW1HX76YnHWcdp12QqIgsrOYICgJ01wNrRBCfz1M8ihDnQjCOHkOt1cPe2KOZelT0we+vpfKy+yMFORCAHg=="}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 19]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-20 17:44:53 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (8.8ms)
+  Rendered partials/_login_form.html.erb (4.7ms)
+  Rendered partials/_login.html.erb (6.0ms)
+  Rendered partials/_registration_form.html.erb (83.2ms)
+  Rendered partials/_registration.html.erb (83.8ms)
+Completed 200 OK in 193ms (Views: 192.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home.jpg" for 127.0.0.1 at 2016-04-20 17:44:53 -0500
+
+ActionController::RoutingError (No route matches [GET] "/home.jpg"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.1ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (62.0ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (8.5ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (42.8ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (10.1ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (80.9ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2016-04-20 17:46:44 -0500
+Processing by SessionsController#create as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Sthdh+vTj98JbyzNeZSi+vsh3LdS5PM7vce5tK+qzv6s9yn+KLmQIW1JwJoh0iATbgrbt5xotGsK3AVa3RDRxA==", "user"=>{"email"=>"juli-c.c+3@hotmail.es", "password"=>"[FILTERED]"}}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["email", "juli-c.c+3@hotmail.es"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  UPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["last_sign_in_at", "2016-04-20 22:44:37.890773"], ["current_sign_in_at", "2016-04-20 22:46:45.133721"], ["sign_in_count", 5], ["updated_at", "2016-04-20 22:46:45.135991"], ["id", 19]]
+  [1m[36m (21.6ms)[0m  [1mcommit transaction[0m
+Completed 201 Created in 231ms (Views: 0.5ms | ActiveRecord: 23.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-20 17:46:45 -0500
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 19]]
+  Rendered home/index.html.erb within layouts/application (14.1ms)
+  Rendered partials/_login_form.html.erb (3.6ms)
+  Rendered partials/_login.html.erb (8.4ms)
+  Rendered partials/_registration_form.html.erb (78.8ms)
+  Rendered partials/_registration.html.erb (88.6ms)
+Completed 200 OK in 209ms (Views: 208.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/home.jpg" for 127.0.0.1 at 2016-04-20 17:46:46 -0500
+
+ActionController::RoutingError (No route matches [GET] "/home.jpg"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/julicc/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.4ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.8ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.1ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (61.4ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (4.2ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (33.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/julicc/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (72.0ms)
+
+
+Started GET "/users/19" for 127.0.0.1 at 2016-04-20 17:47:03 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 19]]
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  Rendered partials/_login_form.html.erb (14.2ms)
+  Rendered partials/_login.html.erb (15.0ms)
+  Rendered partials/_registration_form.html.erb (61.8ms)
+  Rendered partials/_registration.html.erb (66.8ms)
+Completed 200 OK in 175ms (Views: 173.8ms | ActiveRecord: 0.1ms)

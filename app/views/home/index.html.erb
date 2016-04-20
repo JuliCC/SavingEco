@@ -30,16 +30,18 @@
 	      <li><a href="#" class="btn btn-success navbar-btn" data-toggle="modal" data-target="#myModal"><i class="fa fa-sign-in" aria-hidden="true"></i>Login</a></li>
 	  <% else %>
 
-    
-	 	 <li>
-	 	 	<%= current_user.name %>
-      <% if user_signed_in? %>
-  <%= link_to "Ir a mi perfil", current_user %>
-<% end %>
-	 	 	<%= link_to "salir", destroy_user_session_path, method: :delete %>
-	 	 </li>
-	  	
-      <% end %>
+  <div class="dropdown">
+  <button class="btn btn-success navbar-btn dropdown-toggle" type="button" data-toggle="dropdown"><%= current_user.avatar %> - <%= current_user.username %>
+  <span class="caret"></span></button>
+  <ul class="dropdown-menu">
+    <% if user_signed_in? %>
+    <li><%= link_to "Ir a mi perfil", current_user %></li>
+    <% end %>
+    <li><%= link_to "Salir", destroy_user_session_path, method: :delete %></li>
+    <% end %>
+  </ul>
+</div>
+          
     </ul>
   	</div>
 	</nav>
