@@ -112,44 +112,60 @@ Login</a></li>
 
 <section id="contact" data-speed="4" data-type="background">
 	<div class="container">
+    <h1 class="text-center">Welcome</h1>
+    <h3 class="text-center text-muted">bla bla bla bla </h3>
 
-<h1>Welcome</h1>
+    <div class="row">
+      <div class="col-md-4">
+        <h4>Datos de contacto</h4>
+        <p><span class="fa fa ubicacion "></span>Julieth Cardona C.</p>
+        <p><span class="fa fa phone "></span>310 440 3341</p>
+        <p><span class="fa fa e-mail "></span>juli-c.c@hotmail.es</p>
+        <p><span class="fa fa ubicacion "></span>Medellín, Colombia</p>
+      </div>
 
-<%= form_for @contact do |f| %>
-	<div>
-		<%= f.label :name %>
-		<%= f.text_field :name %>
-	</div>
+      <div class="col-md-8">
+        <div class="row">
+          <%= form_for @contact do |f| %>
+          <div class="col-sm-6 form-group">
+          	<%= f.label :name %>
+          	<%= f.text_field :name %>
+          </div>
 
-	<div>
-		<%= f.label :email %>
-		<%= f.text_field :email %>
-	</div>
+          <div class="col-sm-6 form-group">
+          	<%= f.label :email %>
+          	<%= f.text_field :email %>
+          </div>
 
-	<div>
-		<%= f.label :phone %>
-		<%= f.text_field :phone %>
-	</div>
+          <div class="col-sm-6 form-group">
+          	<%= f.label :phone %>
+          	<%= f.text_field :phone %>
+          </div>
 
-	<div>
-		<%= f.label :subject %>
-		<%= f.text_field :subject %>
-	</div>
+          <div class="col-sm-6 form-group">
+          	<%= f.label :subject %>
+          	<%= f.text_field :subject %>
+          </div>
 
-	<div>
-		<%= f.label :content %>
-		<%= f.text_area :content %>
-	</div>
+          <div>
+          	<%= f.label :content %>
+          	<%= f.text_area :content %>
+          </div>
 
-	<div>
-		<%= f.submit 'Send' %>
-	</div>
+          <div class="row">
+            <div class="col-md-12 form-group">
+          	  <div class="btn pull-right"<%= f.submit 'Send' %>></div>
+            </div>
+          </div>
 
-	</div>
-
+        </div>
+      </div>
+    </div>
+  </div>
+  
 </section>
-	
-<% end %>
+
+          <% end %>
 <% if user_signed_in? %>
 	<%= link_to "Ir a mi perfil", current_user %>
 <% end %>
