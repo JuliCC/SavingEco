@@ -20,3 +20,8 @@ $(document).on('ready page:load', function(){
       }); // end window scroll
    });  // end section function
 }); // close out script
+
+$(document).ready(function(){
+    // Initialize Tooltip
+    $('[data-toggle="tooltip"]').tooltip();
+})

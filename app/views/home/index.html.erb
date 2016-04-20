@@ -5,7 +5,7 @@
 <header>
 
 <div> <!--Barra de navegacion -->
-
+ 
  	<nav class="navbar navbar-inverse navbar-fixed-top">
   	<div class="container-fluid">
     	<div class="navbar-header">
@@ -26,13 +26,16 @@
     		</ul>
     <ul class="nav navbar-nav navbar-right">
       <% unless user_signed_in? %>
-	      <li><a href="#" class="btn btn-success navbar-btn btn-juli" data-toggle="modal" data-target="#ModalRegistration"><i class="fa fa-user-plus" aria-hidden="true"></i>
-Sign up</a></li>
-	      <li><a href="#" class="btn btn-success navbar-btn" data-toggle="modal" data-target="#myModal"><i class="fa fa-sign-in" aria-hidden="true"></i>
-Login</a></li>
+	      <li><a href="#" class="btn btn-success navbar-btn btn-juli" data-toggle="modal" data-target="#ModalRegistration"><i class="fa fa-user-plus" aria-hidden="true"></i>Sign up</a></li>
+	      <li><a href="#" class="btn btn-success navbar-btn" data-toggle="modal" data-target="#myModal"><i class="fa fa-sign-in" aria-hidden="true"></i>Login</a></li>
 	  <% else %>
+
+    
 	 	 <li>
 	 	 	<%= current_user.name %>
+      <% if user_signed_in? %>
+  <%= link_to "Ir a mi perfil", current_user %>
+<% end %>
 	 	 	<%= link_to "salir", destroy_user_session_path, method: :delete %>
 	 	 </li>
 	  	
@@ -110,18 +113,18 @@ Login</a></li>
 <!-- Contact Section
 ==================================================================-->
 
-<section id="contact" data-speed="4" data-type="background">
+<section id="contact">
 	<div class="container">
-    <h1 class="text-center">Welcome</h1>
+    <h1 class="text-center">Contact</h1>
     <h3 class="text-center text-muted">bla bla bla bla </h3>
 
     <div class="row">
       <div class="col-md-4">
         <h4>Datos de contacto</h4>
-        <p><span class="fa fa ubicacion "></span>Julieth Cardona C.</p>
-        <p><span class="fa fa phone "></span>310 440 3341</p>
-        <p><span class="fa fa e-mail "></span>juli-c.c@hotmail.es</p>
-        <p><span class="fa fa ubicacion "></span>Medellín, Colombia</p>
+        <p><i class="fa fa-female" aria-hidden="true"></i> Julieth Cardona C.</p>
+        <p><i class="fa fa-mobile" aria-hidden="true"></i> 310 440 3341</p>
+        <p><i class="fa fa-envelope" aria-hidden="true"></i> juli-c.c@hotmail.es</p>
+        <p><i class="fa fa-map-marker" aria-hidden="true"></i> Medellín, Colombia</p>
       </div>
 
       <div class="col-md-8">
@@ -154,7 +157,8 @@ Login</a></li>
 
           <div class="row">
             <div class="col-md-12 form-group">
-          	  <div class="btn pull-right"<%= f.submit 'Send' %>></div>
+          	  <%= f.submit 'Send' , class:"btn pull-right" %>
+              <% end %>
             </div>
           </div>
 
@@ -165,10 +169,15 @@ Login</a></li>
   
 </section>
 
-          <% end %>
-<% if user_signed_in? %>
-	<%= link_to "Ir a mi perfil", current_user %>
-<% end %>
+<footer class="text-center">
+  <a class="up-arrow" href="#myCarousel" data-toggle="tooltip" title="TO TOP">
+    <i class="fa fa-2x fa-home" aria-hidden="true"></i>
+  </a><br><br>
+  <p>Julieth Cardona Ceballos</p>
+</footer>
+
+          
+
 </body>
 </html>
 
