@@ -26,12 +26,13 @@
     		</ul>
     <ul class="nav navbar-nav navbar-right">
       <% unless user_signed_in? %>
-	      <li><a href="#" class="btn btn-success navbar-btn btn-juli" data-toggle="modal" data-target="#ModalRegistration"><i class="fa fa-user-plus" aria-hidden="true"></i>Sign up</a></li>
+	      <li><a href="#" class="btn btn-success navbar-btn" data-toggle="modal" data-target="#ModalRegistration"><i class="fa fa-user-plus" aria-hidden="true"></i>Sign up</a></li>
 	      <li><a href="#" class="btn btn-success navbar-btn" data-toggle="modal" data-target="#myModal"><i class="fa fa-sign-in" aria-hidden="true"></i>Login</a></li>
 	  <% else %>
 
   <div class="dropdown">
-  <button class="btn btn-success navbar-btn dropdown-toggle" type="button" data-toggle="dropdown"><%= current_user.avatar %> - <%= current_user.username %>
+  <button class="btn btn-success navbar-btn dropdown-toggle" type="button" data-toggle="dropdown">
+    <img style="width: 30px" src="<%= current_user.avatar.url %>" />  - <%= current_user.username %>
   <span class="caret"></span></button>
   <ul class="dropdown-menu">
     <% if user_signed_in? %>
@@ -136,11 +137,13 @@
           	<%= f.label :name %>
           	<%= f.text_field :name %>
           </div>
-
+  
           <div class="col-sm-6 form-group">
           	<%= f.label :email %>
           	<%= f.text_field :email %>
           </div>
+
+
 
           <div class="col-sm-6 form-group">
           	<%= f.label :phone %>
