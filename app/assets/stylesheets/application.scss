@@ -54,8 +54,8 @@
 
 /*====================================Paralax==================================== */
 
-#about { 
-  background: url(asset-path("eco.jpg")) 100% 0 fixed; 
+#parallax1 { 
+  background: url(asset-path("bici.jpg")) 100% 0 fixed; 
   background-repeat: no-repeat;
   height: 100%;  
   margin: 0 auto; 
@@ -69,14 +69,20 @@
   background-size: cover;
  -o-background-size: cover;
 }
-#discover { 
-  background: url(asset-path("home.jpg")) 50% 0 fixed; 
-  height: auto;  
+#parallax2 { 
+  background: url(asset-path("eco.jpg")) 100% 0 fixed; 
+  background-repeat: no-repeat;
+  height: 100%;  
   margin: 0 auto; 
   width: 100%; 
   position: relative; 
   box-shadow: 0 0 50px rgba(0,0,0,0.8);
   padding: 200px 0;
+  background-position: center;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+  background-size: cover;
+ -o-background-size: cover;
 }
 #contact { 
   background: url(asset-path("Playita1.jpg")) 100% fixed; 
@@ -92,6 +98,40 @@
   background-size: cover;
  -o-background-size: cover;
 }
+
+#parallax3 { 
+  background: url(asset-path("eco.jpg")) 100% 0 fixed; 
+  background-repeat: no-repeat;
+  height: 100%;  
+  margin: 0 auto; 
+  width: 100%; 
+  position: relative; 
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  padding: 100px 0;
+  background-position: center;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+  background-size: cover;
+ -o-background-size: cover;
+}
+
+#parallax4 { 
+  background: url(asset-path("eco.jpg")) 100% 0 fixed; 
+  background-repeat: no-repeat;
+  height: 100%;  
+  margin: 0 auto; 
+  width: 100%; 
+  position: relative; 
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  padding: 100px 0;
+  background-position: center;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+  background-size: cover;
+ -o-background-size: cover;
+}
+
+
 
 .container {
       padding: 10px 120px;

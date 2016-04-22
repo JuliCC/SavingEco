@@ -1,11 +1,7 @@
-
-
-
 <body>
 <header>
 
 <div> <!--Barra de navegacion -->
- 
  	<nav class="navbar navbar-inverse navbar-fixed-top">
   	<div class="container-fluid">
     	<div class="navbar-header">
@@ -20,7 +16,7 @@
 	      <ul class="nav navbar-nav navbar-left">
 		      <li><a href="#about">About</a></li>
 		      <li><a href="#about">Team</a></li>
-		      <li><a href="#">Products</a></li>
+		      <li><a href="#product">Products</a></li>
 		      <li><a href="#">Community</a></li>
 		      <li class="active"><a href="#contact">Contact</a></li>
     		</ul>
@@ -29,7 +25,6 @@
 	      <li><a href="#" class="btn btn-success navbar-btn" data-toggle="modal" data-target="#ModalRegistration"><i class="fa fa-user-plus" aria-hidden="true"></i>Sign up</a></li>
 	      <li><a href="#" class="btn btn-success navbar-btn" data-toggle="modal" data-target="#myModal"><i class="fa fa-sign-in" aria-hidden="true"></i>Login</a></li>
 	  <% else %>
-
   <div class="dropdown">
   <button class="btn btn-success navbar-btn dropdown-toggle" type="button" data-toggle="dropdown">
     <img style="width: 30px" src="<%= current_user.avatar.url %>" />  - <%= current_user.username %>
@@ -41,8 +36,7 @@
     <li><%= link_to "Salir", destroy_user_session_path, method: :delete %></li>
     <% end %>
   </ul>
-</div>
-          
+</div>      
     </ul>
   	</div>
 	</nav>
@@ -87,31 +81,100 @@
   	<i class="fa fa-c fa-4x fa-caret-square-o-right" aria-hidden="true"></i>
 	</a>
 	</div>
+</div><!-- End Carousel-->
+
+</header> 
+
+<section id="parallax1" data-speed="6" data-type="background"> <!--Parallax-->
+    <div class="container">gsdgd</div>
+</section> <!-- End Parallax-->
+
+<!-- Product Section
+==================================================================-->
+<section id="product">
+
+ <div class="row">
+  <div class="col-sm-4"><img src="<%= image_path('purificador.jpg')%>" width="500" height="400" </div>
+  <div class="col-sm-8">.col-sm-8</div>
 </div>
 
-</header>
+  
+</section> <!-- Product Section End -->
 
-<!-- About Section
-==================================================================-->
-
-<section id="about" data-speed="6" data-type="background">
-    <div class="container">
-        About here!
-    </div>
-</section> <!-- About Section End -->
-
-<!--Descubre Section
-===================================================================-->
-
-<section id="discover" data-speed="2" data-type="background">
-    <div class="container">
-        Dispositivo
-    </div>
-</section> <!-- Descubre Section End -->
+<section id="parallax2" data-speed="2" data-type="background"> <!--Parallax-->
+    <div class="container"></div>
+</section> <!-- End Parallax-->
 	
-		
-	
+	<!--Tecnic Section
+===================================================================-->	
+<section>
 
+<p>Explicacion tecnica</p>
+  
+</section> <!-- Tecnic Section End -->
+
+<section id="parallax3" data-speed="6" data-type="background"> <!--Parallax-->
+    <div class="container"></div>
+</section> <!-- End Parallax-->
+
+  <!--Profits Section
+===================================================================-->  
+<section>
+
+<div id="services" class="container-fluid text-center">
+  <h2>BENEFICIOS FISICOS, PSICOLOGICOS Y SOCIALES </h2>
+  <h4>Mucho mas que lo que esperabas</h4>
+  <br>
+  <div class="row slideanim">
+    <div class="col-sm-4">
+      <i class=" fa-4x fa fa-leaf" aria-hidden="true"></i>
+      <h4>CONTRIBUYES AL MEDIO AMBIENTE</h4>
+      <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+    <div class="col-sm-4">
+      <i class="fa-4x fa fa-users" aria-hidden="true"></i>
+      <h4>CONOCES GENTE</h4>
+      <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+    <div class="col-sm-4">
+      <i class="fa-4x fa fa-bicycle" aria-hidden="true"></i>
+      <h4>HACES EJERCICIO</h4>
+      <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+  </div>
+  <br><br>
+  <div class="row slideanim">
+    <div class="col-sm-4">
+      <i class="fa-4x fa fa-heartbeat" aria-hidden="true"></i>
+      <h4>FORTALECES TU CORAZON</h4>
+      <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+    <div class="col-sm-4">
+      <i class="fa-4x fa fa-smile-o" aria-hidden="true"></i>
+      <h4>TE DIVIERTES</h4>
+      <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+    <div class="col-sm-4">
+      <i class="fa-4x fa fa-bed" aria-hidden="true"></i>
+      <h4 style="color:#303030;">ASDFAS</h4>
+      <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+  </div>
+</div>
+  
+</section> <!-- Profits Section End -->
+
+<section id="parallax4" data-speed="6" data-type="background"> <!--Parallax-->
+    <div class="container"></div>
+</section> <!-- End Parallax-->
+
+  <!--Community Section
+===================================================================-->  
+<section id="community">
+
+<p>Comunidad</p>
+  
+</section> <!-- Community Section End -->
 
 <!-- Contact Section
 ==================================================================-->
