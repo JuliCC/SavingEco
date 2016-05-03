@@ -44,31 +44,40 @@
 
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel"> <!-- Carousel-->
+
+
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
     <li data-target="#myCarousel" data-slide-to="1"></li>
     <li data-target="#myCarousel" data-slide-to="2"></li>
-    <li data-target="#myCarousel" data-slide-to="3"></li>
   </ol>
+
+
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img class="img-carousel" src="<%= image_path('medellin.jpg')%>" alt="Chania">
+
+      <img class="img-carousel" id=carousel-img-juli src="<%= image_path('Med.jpg')%>"  alt="Contaminación en Medellín">
+          <div class="absolute">
+          <h1>¿...Y si pudieramos ser parte de la solución?</h1>
+          <button type="button" class="btn btn-primary">DESCUBRE</button>
+        </div>
+      </div>
+
+    <div class="item">
+      <img class="img-carousel" id=carousel-img-juli src="<%= image_path('MiMedellin.jpg')%>" alt="Como quiero a Medellín">
     </div>
 
     <div class="item">
-      <img class="img-carousel" src="<%= image_path('medellin.jpg')%>" alt="Chania">
+      <img class="img-carousel" id=carousel-img-juli src="<%= image_path('MiMedellin.jpg')%>" alt="Como quiero a Medellín">
+      <div class="carousel-caption">
+          <h3>Medellín, Colombia</h3>
+          <p>La ciudad de la eterna primavera</p>
+        </div>      
     </div>
 
-    <div class="item">
-      <img class="img-carousel" src="<%= image_path('medellin.jpg')%>" alt="Chania">
-    </div>
-
-    <div class="item">
-      <img class="img-carousel" src="<%= image_path('medellin.jpg')%>" alt="Chania">
-    </div>
   </div>
 
   <!-- Left and right controls -->
@@ -76,6 +85,8 @@
   <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
     <i class="fa fa-c fa-4x fa-caret-square-o-left" aria-hidden="true"></i>
   </a>
+
+
 
   <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
   	<i class="fa fa-c fa-4x fa-caret-square-o-right" aria-hidden="true"></i>
@@ -94,7 +105,7 @@
 <section id="product">
 
  <div class="row">
-  <div class="col-sm-4"><img src="<%= image_path('purificador.jpg')%>" width="500" height="400" </div>
+  <div class="col-sm-4"><img src="<%= image_path('purificador.jpg')%>" width="500" height="400" /></div>
   <div class="col-sm-8">.col-sm-8</div>
 </div>
 
@@ -121,7 +132,7 @@
 ===================================================================-->  
 <section>
 
-<div id="services" class="container-fluid text-center">
+<div id="profits" class="container-fluid text-center">
   <h2>BENEFICIOS FISICOS, PSICOLOGICOS Y SOCIALES </h2>
   <h4>Mucho mas que lo que esperabas</h4>
   <br>
@@ -170,9 +181,16 @@
 
   <!--Community Section
 ===================================================================-->  
-<section id="community">
+<section>
 
-<p>Comunidad</p>
+<div id="community" class="container-fluid text-center">
+
+<h2>COMUNIDAD</h2>
+
+<div>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus nibh a rhoncus hendrerit. Proin ex mauris, varius dignissim dolor ut, vulputate volutpat turpis. Maecenas vel augue sollicitudin, imperdiet metus ac, eleifend ligula. Suspendisse potenti. Donec at lacinia purus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed finibus, lectus vel sodales dictum, mauris augue ultrices augue, non sodales ante enim quis est. Vestibulum auctor, nibh eget pulvinar ultricies, magna dui porta turpis, vitae congue justo est dictum nisl. Ut maximus eleifend sapien, id finibus elit ullamcorper quis. Cras ac elit erat. Suspendisse et mi et lorem lacinia pulvinar a in tortor. Aenean pulvinar metus sed purus semper, non aliquet leo bibendum.</p>
+</div>
+</div>
   
 </section> <!-- Community Section End -->
 
@@ -186,55 +204,45 @@
 
     <div class="row">
       <div class="col-md-4">
-        <h4>Datos de contacto</h4>
-        <p><i class="fa fa-female" aria-hidden="true"></i> Julieth Cardona C.</p>
-        <p><i class="fa fa-mobile" aria-hidden="true"></i> 310 440 3341</p>
-        <p><i class="fa fa-envelope" aria-hidden="true"></i> juli-c.c@hotmail.es</p>
-        <p><i class="fa fa-map-marker" aria-hidden="true"></i> Medellín, Colombia</p>
+        <h3>Datos de contacto</h3>
+        <h4><i class="fa fa-female fa-contact" aria-hidden="true"></i> Julieth Cardona C.</h4>
+        <h4><i class="fa fa-mobile fa-contact" aria-hidden="true"></i> 310 440 3341</h4>
+        <h4><i class="fa fa-envelope fa-contact" aria-hidden="true"></i> juli-c.c@hotmail.es</h4>
+        <h4><i class="fa fa-map-marker fa-contact" aria-hidden="true"></i> Medellín, Colombia</h4>
       </div>
 
       <div class="col-md-8">
-        <div class="row">
-          <%= form_for @contact do |f| %>
-          <div class="col-sm-6 form-group">
-          	<%= f.label :name %>
-          	<%= f.text_field :name %>
-          </div>
-  
-          <div class="col-sm-6 form-group">
-          	<%= f.label :email %>
-          	<%= f.text_field :email %>
-          </div>
-
-
-
-          <div class="col-sm-6 form-group">
-          	<%= f.label :phone %>
-          	<%= f.text_field :phone %>
-          </div>
-
-          <div class="col-sm-6 form-group">
-          	<%= f.label :subject %>
-          	<%= f.text_field :subject %>
-          </div>
-
-          <div>
-          	<%= f.label :content %>
-          	<%= f.text_area :content %>
-          </div>
-
-          <div class="row">
-            <div class="col-md-12 form-group">
-          	  <%= f.submit 'Send' , class:"btn pull-right" %>
-              <% end %>
-            </div>
-          </div>
-
+        <div class="form-group" >
+        <%= form_for @contact do |f| %>
+        <%= f.label :name, :class => "control-label col-lg-2" %>
+        <%= f.text_field :name, :class => "form-control" %>
         </div>
+
+        <div class="col-sm-8 form-group" >
+        <%= f.label :email, :class => "control-label" %>
+        <%= f.text_field :email, :class => "form-control" %>
+        </div>
+        
+        <div class="col-sm-4 form-group" >
+      	<%= f.label :phone, :class => "control-label" %>
+      	<%= f.text_field :phone, :class => "form-control" %>
+        </div>
+        
+        
+        <div class="form-group">
+      	<%= f.label :content, :class => "control-label col-lg-2" %>
+      	<%= f.text_area :content, size:"50x5", :class => "form-control" %>
+        </div>
+        
+        <div class="form-group">
+          <div class="col-lg-offset-2 col-lg-10">
+    	  <%= f.submit 'Send', :class => "btn pull-right" %>
+        <% end %>
+          </div>
+        </div> 
       </div>
     </div>
-  </div>
-  
+  </div> 
 </section>
 
 <footer class="text-center">
